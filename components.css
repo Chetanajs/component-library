@@ -9,17 +9,25 @@ body{
 }
 
 .head{
-    color: rgb(17, 67, 194);
+    color: rgb(178, 116, 230);
 }
 
 
-nav{
+.inlinelist{
     padding: 5rem;
     color: rgb(229, 236, 236);
-    margin: auto;
-    background-color: blueviolet;
-    text-align: center;
+    display: inline;
     
+}
+
+nav{
+    background-color: rgb(155, 108, 218);
+    color: white;
+    padding: 0.5rem;
+    border: 600px;
+}
+.clr{
+    color: aliceblue;
 }
 .container{
 
@@ -55,7 +63,29 @@ nav{
 
 /**list**/
 
-.inlinelist{
+.inlinelist1{
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+.head{
+    padding-top: 50px;
+}
+
+.img{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+/**header**/
+
+.span{
+    color: rgb(66, 12, 131);
+}
+.name{
+    color: black;
+}
+
+
+    
