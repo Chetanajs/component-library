@@ -2,6 +2,7 @@
 
 body{
     font-family: 'IBM Plex Serif', serif;
+    margin: 0em;
 }
 
 :root{
@@ -19,6 +20,7 @@ body{
 
     margin: auto;
     max-width: 600px;
+
 }
 
 /**links**/
@@ -65,7 +67,7 @@ body{
 }
 /**navigation**/
 nav{
-    background-color: rgb(155, 108, 218);
+    background-color: var(--primary-color);
     color: white;
     padding: 1rem;
     border-radius: 1rem;
@@ -86,14 +88,51 @@ nav{
 /**header**/
 
 .span{
-    color: rgb(66, 12, 131);
+    color: var(--primary-color);
 }
 .name{
     color: black;
+    text-align: center;
 }
 
 
 /**section**/
+.section{
+    text-align: center;
+    color:white;
+}
+.secclr{
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color: white;
+}
+
+/**footer**/
+.inln{
+
+    text-decoration: none;
+    color: aliceblue;
+}
+.social-links{
+    list-style: none;
+
+}
+.disp{
+    display: inline;
+    padding: 0rem 1rem;
+    
+}
+footer{
+    background-color: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+    border-radius: 1rem;
+    color:white;
+    
+}
+footer ul{
+    padding-inline-start: 0rem;
+}
 
 
 
