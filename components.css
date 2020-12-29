@@ -15,7 +15,6 @@ body{
 }
 
 
-
 /**container**/
 .container{
 
@@ -57,7 +56,7 @@ body{
     padding: 0rem 0.5rem;
 }
 
-.head{
+.head1{
     padding-top: 50px;
 }
 
@@ -66,6 +65,19 @@ body{
     margin: auto;
     display: block;
 }
+
+.img1{
+    max-width: 150px;
+    margin:auto;
+    padding:2rem ;
+    
+    border-radius: 50%;
+    
+    
+
+
+}
+
 /**navigation**/
 nav{
     background-color: var(--primary-color);
@@ -74,8 +86,10 @@ nav{
     border-radius: 1rem;
 }
 .clr{
-    color: aliceblue;
+    color: white;
     text-decoration: none;
+
+   
 }
 
 
@@ -83,6 +97,7 @@ nav{
     padding: 1rem;
     color: rgb(229, 236, 236);
     display: inline;
+    
 }
 
 
@@ -150,6 +165,16 @@ footer ul{
     padding-inline-start: 0rem;
 }
 
+/**div for about**/
 
+/**.divback{
+    margin: 10px 5px;
+    padding: 1%;
+    background-color: gray;
+    border-radius: 2rem;
+}**/
 
-    
+/**about background**/
+.link-active{
+    font-weight: bold;
+}
