@@ -13,22 +13,8 @@ body{
 }
 
 
-.inlinelist{
-    padding: 5rem;
-    color: rgb(229, 236, 236);
-    display: inline;
-    
-}
 
-nav{
-    background-color: rgb(155, 108, 218);
-    color: white;
-    padding: 0.5rem;
-    border: 600px;
-}
-.clr{
-    color: aliceblue;
-}
+/**container**/
 .container{
 
     margin: auto;
@@ -77,6 +63,25 @@ nav{
     margin: auto;
     display: block;
 }
+/**navigation**/
+nav{
+    background-color: rgb(155, 108, 218);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.clr{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.inlinelist{
+    padding: 1rem;
+    color: rgb(229, 236, 236);
+    display: inline;
+}
+
 
 /**header**/
 
@@ -86,6 +91,10 @@ nav{
 .name{
     color: black;
 }
+
+
+/**section**/
+
 
 
     
