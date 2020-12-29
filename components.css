@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
 
 body{
-    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0em;
+    margin-left: 0.1em;
 }
 
 :root{
@@ -99,12 +100,26 @@ nav{
 /**section**/
 .section{
     text-align: center;
-    color:white;
+    margin-top: 50px;
+    
 }
 .secclr{
-    background-color: var(--primary-color);
+
     border-radius: 1rem;
-    color: white;
+    color:black;
+    
+}
+.section1{
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+.seclr{
+
+    border-radius: 1rem;
+    color:black;
+    
 }
 
 /**footer**/
@@ -128,6 +143,7 @@ footer{
     text-align: center;
     border-radius: 1rem;
     color:white;
+    margin-top: 10px;
     
 }
 footer ul{
