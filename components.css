@@ -31,7 +31,6 @@ body{
     text-decoration: none;
     color: white;
     padding: 0rem 1rem;
-    border-color: black;
     max-width: 600px;
 
 
@@ -72,10 +71,6 @@ body{
     padding:2rem ;
     
     border-radius: 50%;
-    
-    
-
-
 }
 
 /**navigation**/
