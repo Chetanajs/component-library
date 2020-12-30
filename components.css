@@ -10,17 +10,16 @@ body{
     --primary-color:rgb(173, 108, 233);
 }
 
-.head{
-    color: rgb(178, 116, 230);
-}
+
 
 
 /**container**/
 .container{
-
-    margin: auto;
     max-width: 600px;
+    margin: auto;
+    
 
+    
 }
 
 /**links**/
@@ -55,14 +54,16 @@ body{
     padding: 0rem 0.5rem;
 }
 
-.head1{
+.head{
     padding-top: 50px;
+   
 }
 
 .img{
     max-width: 350px;
     margin: auto;
     display: block;
+
 }
 
 .img1{
@@ -93,6 +94,7 @@ nav{
     color: rgb(229, 236, 236);
     display: inline;
     
+    
 }
 
 
@@ -104,6 +106,7 @@ nav{
 .name{
     color: black;
     text-align: center;
+    
 }
 
 
@@ -172,4 +175,26 @@ footer ul{
 /**about background**/
 .link-active{
     font-weight: bold;
+}
+
+/**footer1**/
+.disp1{
+    display: inline;
+    
+    
+}
+.footer1{
+    background-color: var(--primary-color);
+    padding: 0.1px;
+    text-align: center;
+    border-radius: 1rem;
+    color:white;
+    margin-top: 0.1rewm;
+    
+}
+.footer1 ul{
+    padding-inline-start: 0rem;
+}
+.inl1{
+    margin-bottom: 0.1rem;
 }
